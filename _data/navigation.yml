@@ -1,0 +1,13 @@
+docs:
+  - title: "Navigation"
+    children:
+      - title: "Introduction"
+        url: index.html
+      - title: "Publications"
+        url: pages/publications.html
+      - title: "Raw data"
+        url: pages/raw-data.html
+  - title: "Implementations"
+    children:
+      - title: "iFL4Eclipse"
+        url: https://github.com/sed-szeged/iFL4Eclipse

@@ -1,1 +1,32 @@
-theme: jekyll-theme-minimal
+title: Research about Interactive Fault Localization
+logo: /logo/logo_no-motto.png
+show_downloads: false
+google_analytics:
+
+markdown: kramdown
+
+# theme: jekyll-theme-minimal
+theme: minimal-mistakes-jekyll
+
+search: true
+
+defaults:
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+      author:
+        name     : "University of Szeged, Department of Software Engineering"
+        avatar   : "/logo/szte.png"
+        location : "Szeged, Hungary"
+        links:
+        - label: "Official Website"
+          icon: "fas fa-university"
+          url: "https://www.inf.u-szeged.hu/en/sed"
+      toc: true
+      toc_sticky: true
+      sidebar:
+        nav: "docs"
