@@ -3,10 +3,14 @@ logo: /logo/logo_no-motto.png
 show_downloads: false
 google_analytics:
 
+plugins:
+  - jekyll-include-cache
+
 markdown: kramdown
 
 # theme: jekyll-theme-minimal
-theme: minimal-mistakes-jekyll
+# theme: minimal-mistakes-jekyll
+remote_theme: "mmistakes/minimal-mistakes@4.22.0"
 
 search: true
 
