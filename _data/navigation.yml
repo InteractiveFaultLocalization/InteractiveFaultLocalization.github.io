@@ -10,4 +10,4 @@ docs:
   - title: "Implementations"
     children:
       - title: "iFL4Eclipse"
-        url: https://github.com/sed-szeged/iFL4Eclipse
+        url: https://github.com/InteractiveFaultLocalization/iFL4Eclipse
