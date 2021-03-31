@@ -12,7 +12,7 @@ Each video frame was composed of two parts: the participants screen area and vid
 We created a transcription of each recorded video in form of subtitles (SRT format) with additional information about gestures and other activities of the participants such as relevant changes of facial expression, gesticulation, and other environment factors (this is similar to subtitles for the deaf and hard of hearing for movies).
 After this step, all the videos could be edited to remove identifying information, that is video and voice of the participant, and leave only the screen capture part with the transcript.
 
-You could download the transcripts [here](TBA).
+You could download the transcripts [here](https://github.com/InteractiveFaultLocalization/think-aloud-utils/tree/iFL2021/video-logs).
 
 ### Categorization of the Behaviors
 
