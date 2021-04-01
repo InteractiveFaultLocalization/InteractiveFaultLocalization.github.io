@@ -34,3 +34,17 @@ We also created a [preformatted PDF version of the full transition graph](https:
 ### Categorization Preprocessing Script
 
 The inner structure of these datafiles can be inferred from the Python [script](https://github.com/InteractiveFaultLocalization/think-aloud-utils/blob/iFL2021/preprocessing/main.py) used to generate them.
+
+## Raw Data from Simulated Users Experiments and User Studies in 2020
+
+In the year 2020 we conducted several experiments using simulated and real users.
+The collected raw data are available under the following sections. For more details check our publications.
+
+### Collected data
+
+The data collected ([Zenodo](https://zenodo.org/record/3991763#.YGWXyq8zaUk), [Figshare](https://figshare.com/collections/Supplemental_Material_for_Experiments_with_Interactive_Fault_Localization_Using_Simulated_and_Real_Users/5099597/1)) from these experiments are presented in several CSV files. These are grouped according the type of the experiment: simulation and user-study.
+We also provide the exact bugs as patches, in those cases, when we did not use any official bug databases.
+
+### Environment
+
+The [development environment](https://figshare.com/articles/software/Software_for_Experiments_with_Interactive_Fault_Localization_Using_Simulated_and_Real_Users/12845921?backTo=/collections/Supplemental_Material_for_Experiments_with_Interactive_Fault_Localization_Using_Simulated_and_Real_Users/5099597), which was used during the evaluation of the iFL4Eclipse plug-in, is also available.
