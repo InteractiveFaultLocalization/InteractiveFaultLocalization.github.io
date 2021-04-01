@@ -14,6 +14,18 @@ After this step, all the videos could be edited to remove identifying informatio
 
 You could download the transcripts [here](https://github.com/InteractiveFaultLocalization/think-aloud-utils/tree/iFL2021/video-logs).
 
+### Handouts
+
+At the beginning of each debugging session we gave [printed handouts](https://github.com/InteractiveFaultLocalization/think-aloud-utils/blob/iFL2021/handouts/tasks.pdf) to the participants which contained the following information:
+
++ ID of the task (A, B, etc.)
++ Failing test case(s)
++ Short description (one sentence) of the failure
++ Execution instruction about the test suite
+
+Before warm-up and debugging session of the feature phase we provided further information about the main features of the three IDE plug-ins, which were introduced during this phase.
+At the beginning of the debugging sessions in the feature phase and use-case phase, the subjects got an [additional printed handout](https://github.com/InteractiveFaultLocalization/think-aloud-utils/blob/iFL2021/handouts/tools.pdf) that contained a one page brief summary about the features as a reminder.
+
 ### Categorization of the Behaviors
 
 The preprocessing phase started with the manual inspection of the collected data: we watched the videos and determined the aspects and categories based on the witnessed behavior.
