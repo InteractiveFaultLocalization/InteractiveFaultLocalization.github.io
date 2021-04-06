@@ -54,7 +54,7 @@ The collected raw data are available under the following sections. For more deta
 
 ### Collected data
 
-The data collected ([Zenodo](https://zenodo.org/record/3991763#.YGWXyq8zaUk), [Figshare](https://figshare.com/collections/Supplemental_Material_for_Experiments_with_Interactive_Fault_Localization_Using_Simulated_and_Real_Users/5099597/1)) from these experiments are presented in several CSV files. These are grouped according the type of the experiment: simulation and user-study.
+The data collected ([Zenodo](https://doi.org/10.5281/zenodo.4658314), [Figshare](https://doi.org/10.6084/m9.figshare.c.5099597.v2)) from these experiments are presented in several CSV files. These are grouped according the type of the experiment: simulation and user-study.
 We also provide the exact bugs as patches, in those cases, when we did not use any official bug databases.
 
 ### Environment
