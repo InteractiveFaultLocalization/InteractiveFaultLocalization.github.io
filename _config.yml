@@ -29,7 +29,7 @@ defaults:
         links:
         - label: "Official Website"
           icon: "fas fa-university"
-          url: "https://www.inf.u-szeged.hu/en/sed"
+          url: "https://www.sed.inf.u-szeged.hu/"
       toc: true
       toc_sticky: true
       sidebar:
