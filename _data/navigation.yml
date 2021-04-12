@@ -1,3 +1,10 @@
+main:
+  - title: "Home"
+    url: index.html
+  - title: "Publications"
+    url: pages/publications.html
+  - title: "Data"
+    url: pages/raw-data.html
 docs:
   - title: "Navigation"
     children:

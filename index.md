@@ -22,7 +22,7 @@ content="However, these automatic scoring algorithms and the underlying statisti
 content="Our newly proposed methodology, called Interactive Fault Localization (iFL, for short), works exactly like this. The ranked list of suspicious code elements is a result of continuous discourse between the algorithm and the developer. Our idea is to let the user modify the score of the methods, classes, etc., by giving various feedback options about the suggested items. This way, both of them could concentrate on the task they excel in. The algorithm collects and analyzes test results and test-code coverage data, while the developer uses his expert knowledge about the system to clean up the list of suspicious items. Eventually, our goal is to continue improving the iFL methodology and its implementation to provide tools for the developers for finding bugs faster." %}
 
 {% include center-img.html img="logo/logo.png" img-width="40%"
-content="For more information about the technical details of iFL and the current state of the research, check out our publications available from this site." %}
+content="For more information about the technical details of iFL and the current state of the research, check out our [publications](pages/publications.html) available from this site." %}
 
 ## Name our Little Friends!
 
