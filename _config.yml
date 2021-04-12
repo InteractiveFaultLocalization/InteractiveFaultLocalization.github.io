@@ -1,8 +1,8 @@
-title: "Interactive Fault Localization"
-subtitle: "Research about Interactive Fault Localization"
+title: "iFL"
+subtitle: "Interactive Fault Localization"
 logo: /logo/logo_no-motto.png
 show_downloads: false
-google_analytics:
+# google_analytics:
 
 plugins:
   - jekyll-include-cache
