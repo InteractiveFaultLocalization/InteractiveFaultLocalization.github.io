@@ -13,6 +13,75 @@ We created a transcription of each recorded video in form of subtitles (SRT form
 After this step, all the videos could be edited to remove identifying information, that is video and voice of the participant, and leave only the screen capture part with the transcript.
 
 The transcripts can be downloaded from [here](https://github.com/InteractiveFaultLocalization/think-aloud-utils/tree/iFL2021/video-logs).
+We also translated several samples of these subtitles to English, which can be downloaded [here](https://github.com/InteractiveFaultLocalization/think-aloud-utils/tree/iFL2021/video-logs/translated%20samples).
+
+You could inspect these samples in human-readable format in the following blocks.
+
+{% include collapse.html title="Transcript of debugging session without additional tools (2021-02-22_09-46-27-ENG, sample)"
+content="
+The participant starts the exercise. He says <em>'well I'm gonna run the base...'</em> he looks down at the instructions <em>'or... next to the green run button from the arrow pointing down we choose the taskA configuration from the dropdown menu.'</em><br/>
+He double checks the task, sighs, and repeats it while finding the appropriate menu. <em>'From the dropdown menu choose... okay.'</em><br/>
+He clicks on the TaskA test and runs it.<br/>
+He makes observations while waiting. <em>'Now I'm waiting for it to finish running. I can see this is a maven project, though I could guess that from the src main java and from pom.'</em><br/>
+<em>'It's interesting though, because the jre system library says Java 1.6, but here it was run with 1.7'</em> he adds, then clears his throat.<br/>
+<em>'Well anyway, I'll look into this'</em> he says before looking up to see the finished test.<br/>
+Looking at the Console log he continues. <em>'Okay here I can see... it deleted them.'</em><br/>
+He pauses for a moment to adjusts his glasses.<br/>
+<em>'I'll search for... in math the... erm NumberUtils.java'</em> he says while clicking the folders in the Project Explorer.<br/>
+He opens the file he was looking for and continues. 'But otherwise you should search for it in the test, but for this java class (unintelligible)... you can make sense of the test.'<br/>
+He starts opening other files from the Explorer while adding 'I will open these and I'll search for the taskCreatNumber task.'<br/>
+He seems to have difficulty finding the task, however, and mumbles 'This is a constructor... testToInt... string...' then decides to change tactics.<br/>
+'This is a relatively long file so I will search with CTRL+F.'<br/>
+He opens the Find/Replace window.<br/>
+'Umm... I hope this will work.'<br/>
+'I'm looking for the testCreat' he explains while typing it into the window, 'but anyway in Eclipse there should be an option to see the functions...' He starts looking for the settings.<br/>
+'In Window, maybe Editor... Show view, and here is one called... not Project, buuut... Expressions maybe?' He clicks it. It's not the one he wanted.<br/>
+'Nope nope nope nope' he realizes, and clicks away to continue looking elsewhere. <br/>
+'I want to see somewhere the... what this contains' he goes on, but decides to give up for fear of losing too much time.<br/>
+'Never mind, I'll just search for it instead of wasting more time on it, because I don't know how they planned this one and a half hour.'"
+%}
+
+{% include collapse.html title="Transcript of debugging session with additional tools (2021-02-24_13-40-45-ENG, sample)"
+content="
+'Oookay, now let's see... what's going on here'<br/>
+The participant starts the task by clicking on the test case.<br/>
+While it loads he thinks aloud about his next steps. 'Well I don't know; I don't think coverage can help us much right now.' He scratches his head. 'I'm not trying to write a new test. Well okay, clearly we can look at what it shows...' he stops as he only sees an empty table under Coverage, 'oh, yeah especially if... If this is not how you do it at all...' he muses, 'but by default did it not...?'<br/>
+He comes to a realization.<br/>
+'It didn't run, well never mind then.  Well then what to do, what does it say...' He sighs deeply while looking down at the task description.<br/>
+'Yes, coverage as, [click] on coverage all, on coverage all.' He figures out what to.<br/>
+'Good, click JUnit test, mhm' he muses while clicking in the menu.<br/>
+He then looks down at the task description again.<br/>
+'Call graph... it's super interesting though that, that Atlas plugin. It's possible it won't be able to help in this exact situation, I'll look into it in a second...'"
+%}
+
+{% include collapse.html title="Transcript of debugging session with additional tools (2021-02-26_09-23-24-ENG, sample)"
+content="
+The participant starts the task.<br/>
+'Okay, well erm, now we'll try to use this iFL - oh I still haven't selected the project. Okay, here are the failed tests... iFL' he mumbles while clicking through various windows and popups.<br/>
+'Erm, yes, so now I selected the project in iFL, erm, okay.'<br/>
+He waits for the program to load before continuing. 'We're gonna test what this tool is good for, now that I know how... how it works. Well this puts it in a different context now that I know how it works.' <br/>
+He starts making faces because the loading still hasn't finished.<br/>
+'But sadly the... the tool is not too... tool fast' He proceeds to laugh at his own pun.<br/>
+'Whoops' he exclaims once the results finally show up on the screen.<br/>
+'Now it's showing us something' he notes, looking through the results. 'Maybe if it's in the project root it will load automatically?' he wonders. 'Because, erm... Because yesterday, well never mind, I'll click on Load scores again.' And he does.<br/>
+'Uuuuuh,' he keeps clicking around in the tool. 'Okay, well it says that... based on the score' he explains as he tries to put the scores in order. 'I'll put it in order from top to bottom. There's only one problem with this, which is that the Signature is ... mhm.' He notices that the Signature field is too long to fit into the cell, and thus is not visible in its entirety. It can be scrolled through to the end with a mouse though. 'Well it's... scrollable' he concludes.<br/>
+'The error will be at Fraction' he deduces looking at the results window. He wants to see additional information. <br/>
+'The Fraction's test ... yeah... let's look at this... erm. I double click it, right? Then it will jump to it? Does it also open it? Or just...if it's open will it jump to it?' he tries it. 'No, it also opens it, awesome!'<br/>
+'Uuuh, okay, so theoretically this...' he keeps looking at the plugin '... in this test there are errors... fraction, fraction, fraction...' he mumbles trying to figure out what to do next.<br/>
+He looks through the code. 'Let's see... Name: reduce. It's a bit lower, okay, it's quite big.' He starts clicking through the Fault Localization results. 'Well... Well this is... maybe there won't be errors in (unintelligible)' he mumbles. 'But these are, pretty big...pretty big methods.'<br/>
+'GetNumerator, there won't be errors in this one' he explains as he clicks on it. 'I will go on and lower its score... How did it go? Maybe you just need to...' It takes a little time to figure out how to modify the score. He right clicks. 'That's it... erm... Context feedback... good' <br/>
+He opens the Context based feedback window.<br/>
+'So I will lower this, I won't modify the others yet, but I'll lower this, <em>'cause this definitely won't have errors.'<br/>
+'Getter' he says and continues clicking.<br/>
+He finds an issue he's not happy with. <br/>
+'Mutable ... oh yes, here with the ordering - I would report a bug with iFL that if you modify the context, then the ordering will disappear.' Then he keeps searching. 'Denominator... erm... I could do multiple ones at the same time' he muses about checking the result items. 'Erm Fraction, here well, I suppose there won't be any errors here either' he says and moves on. 'Erm... getReduceFraction... here the rows are a little skewed, Position, but whatever, I found these, this is fine.'"
+%}
+
+{% include collapse.html title="Transcript of debugging session with additional tools (, sample)"
+content="
+"
+%}
+
 
 ### Handouts
 
