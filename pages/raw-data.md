@@ -19,24 +19,24 @@ You could inspect these samples in human-readable format in the following blocks
 
 {% include collapse.html title="Transcript of debugging session without additional tools (2021-02-22_09-46-27-ENG, sample)"
 content="
-The participant starts the exercise. He says 'well I'm gonna run the base...' he looks down at the instructions 'or... next to the green run button from the arrow pointing down we choose the taskA configuration from the dropdown menu.'<br/>
+The participant starts the exercise. He says 'well I'm gonna run the base...' he looks down at the instructions 'or... next to the green run button from the arrow pointing down we choose the TaskA configuration from the dropdown menu.'<br/>
 He double checks the task, sighs, and repeats it while finding the appropriate menu. 'From the dropdown menu choose... okay.'<br/>
 He clicks on the TaskA test and runs it.<br/>
-He makes observations while waiting. 'Now I'm waiting for it to finish running. I can see this is a maven project, though I could guess that from the src main java and from pom.'<br/>
-'It's interesting though, because the jre system library says Java 1.6, but here it was run with 1.7' he adds, then clears his throat.<br/>
+He makes observations while waiting. 'Now I'm waiting for it to finish running. I can see this is a Maven project, though I could guess that from the src/main/java structure and from the POM.'<br/>
+'It's interesting though, because the JRE system library says Java 1.6, but here it was run with 1.7' he adds, then clears his throat.<br/>
 'Well anyway, I'll look into this' he says before looking up to see the finished test.<br/>
 Looking at the Console log he continues. 'Okay here I can see... it deleted them.'<br/>
 He pauses for a moment to adjusts his glasses.<br/>
 'I'll search for... in math the... erm NumberUtils.java' he says while clicking the folders in the Project Explorer.<br/>
-He opens the file he was looking for and continues. 'But otherwise you should search for it in the test, but for this java class (unintelligible)... you can make sense of the test.'<br/>
-He starts opening other files from the Explorer while adding 'I will open these and I'll search for the taskCreatNumber task.'<br/>
-He seems to have difficulty finding the task, however, and mumbles 'This is a constructor... testToInt... string...' then decides to change tactics.<br/>
+He opens the file he was looking for and continues. 'But otherwise you should search for it in the test, but for this Java class (unintelligible)... you can make sense of the test.'<br/>
+He starts opening other files from the Explorer while adding 'I will open these and I'll search for the testCreatNumber test.'<br/>
+He seems to have difficulty finding the test, however, and mumbles 'This is a constructor... testToInt... string...' then decides to change tactics.<br/>
 'This is a relatively long file so I will search with CTRL+F.'<br/>
 He opens the Find/Replace window.<br/>
 'Umm... I hope this will work.'<br/>
 'I'm looking for the testCreat' he explains while typing it into the window, 'but anyway in Eclipse there should be an option to see the functions...' He starts looking for the settings.<br/>
 'In Window, maybe Editor... Show view, and here is one called... not Project, buuut... Expressions maybe?' He clicks it. It's not the one he wanted.<br/>
-'Nope nope nope nope' he realizes, and clicks away to continue looking elsewhere. <br/>
+'Nope nope nope nope' he realizes, and clicks away to continue looking elsewhere.<br/>
 'I want to see somewhere the... what this contains' he goes on, but decides to give up for fear of losing too much time.<br/>
 'Never mind, I'll just search for it instead of wasting more time on it, because I don't know how they planned this one and a half hour.'"
 %}
@@ -47,11 +47,11 @@ content="
 The participant starts the task by clicking on the test case.<br/>
 While it loads he thinks aloud about his next steps. 'Well I don't know; I don't think coverage can help us much right now.' He scratches his head. 'I'm not trying to write a new test. Well okay, clearly we can look at what it shows...' he stops as he only sees an empty table under Coverage, 'oh, yeah especially if... If this is not how you do it at all...' he muses, 'but by default did it not...?'<br/>
 He comes to a realization.<br/>
-'It didn't run, well never mind then.  Well then what to do, what does it say...' He sighs deeply while looking down at the task description.<br/>
-'Yes, coverage as, [click] on coverage all, on coverage all.' He figures out what to.<br/>
+'It didn't run, well never mind then. Well then what to do, what does it say...' He sighs deeply while looking down at the task description.<br/>
+'Yes, coverage as, [click] on coverage all, on coverage all.' He figures out what to do.<br/>
 'Good, click JUnit test, mhm' he muses while clicking in the menu.<br/>
 He then looks down at the task description again.<br/>
-'Call graph... it's super interesting though that, that Atlas plugin. It's possible it won't be able to help in this exact situation, I'll look into it in a second...'"
+'Call graph... it's super interesting though, that Atlas plugin. It's possible it won't be able to help in this exact situation, I'll look into it in a second...'"
 %}
 
 {% include collapse.html title="Transcript of debugging session with additional tools (2021-02-26_09-23-24-ENG, sample)"
@@ -81,7 +81,7 @@ He finds an issue he's not happy with. <br/>
 content="
 The participant is asked about hypothetical situations and his reactions to them. The instructor has the following question:<br/>
 'Okay, then let's see the next such case. Let's say that during the task you solved last time, when you wanted to examine the errors within the project, loading the list would have taken 5 minutes meanwhile the Eclipse development environment wouldn't respond to commands. How would this have affected you?'<br/>
-'Well, uuuh,' begins the participant. 'I had such a, well not exactly this issue, but... I had library problems. For me it explicitly underlined the... I think the stringUtilst, and uuuh, when you have a specific task, then those errors that do not belong there can be really annoying' he chuckles and goes on. 'And then others also come out... obviously a project clean and etc. can solve this, usually, in Eclipse. But otherwise, yeah, it annoys me a little.' He pauses to adjust his mask and continues. <br/>
+'Well, uuuh,' begins the participant. 'I had such a, well not exactly this issue, but... I had library problems. For me it explicitly underlined the... I think the StringUtils, and uuuh, when you have a specific task, then those errors that do not belong there can be really annoying' he chuckles and goes on. 'And then others also come out... obviously a project clean and etc. can solve this, usually, in Eclipse. But otherwise, yeah, it annoys me a little.' He pauses to adjust his mask and continues. <br/>
 'Or if there are those that, well, that are quite unexpected... that for completely separate reasons, just a kind of fiddling around, like let's say the development environment is how it is, or the... the development tool, or the computer, or the whatever else, then that can annoy me quite a lot.'<br/>
 There is a hum of approval from the instructor. <br/>
 'I'm not saying it would specifically negatively affect it, because this usually does occur, so it is a typical developer error... So it's not that negative, rather it just causes stressful situations, especially if you have a deadline' he emphasizes. 'And here I imagine this as a deadline, because time... there is a time limit during which you should be finished, and my expectation is that I want to be able to finish' he elaborates.<br/>
