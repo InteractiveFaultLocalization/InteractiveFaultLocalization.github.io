@@ -147,7 +147,7 @@ The participant goes on to give this more thought."
 
 ### Handouts
 
-At the beginning of each debugging session we gave [printed handouts](https://github.com/InteractiveFaultLocalization/think-aloud-utils/blob/iFL2021/handouts/tasks.pdf) to the participants which contained the following information:
+At the beginning of each debugging session we gave printed handouts [HU](https://github.com/InteractiveFaultLocalization/think-aloud-utils/blob/iFL2021/handouts/tasks.pdf), [EN](https://github.com/InteractiveFaultLocalization/think-aloud-utils/blob/iFL2021/handouts/tasks_en.pdf) to the participants which contained the following information:
 
 + ID of the task (A, B, etc.)
 + Failing test case(s)
@@ -155,7 +155,7 @@ At the beginning of each debugging session we gave [printed handouts](https://gi
 + Execution instruction about the test suite
 
 Before warm-up and debugging session of the feature phase we provided further information about the main features of the three IDE plug-ins, which were introduced during this phase.
-At the beginning of the debugging sessions in the feature phase and use-case phase, the subjects got an [additional printed handout](https://github.com/InteractiveFaultLocalization/think-aloud-utils/blob/iFL2021/handouts/tools.pdf) that contained a one page brief summary about the features as a reminder.
+At the beginning of the debugging sessions in the feature phase and use-case phase, the subjects got an additional printed handout [HU](https://github.com/InteractiveFaultLocalization/think-aloud-utils/blob/iFL2021/handouts/tools.pdf), [EN](https://github.com/InteractiveFaultLocalization/think-aloud-utils/blob/iFL2021/handouts/tools_en.pdf) that contained a one page brief summary about the features as a reminder.
 
 ### Categorization of the Behaviors
 
