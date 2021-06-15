@@ -147,7 +147,7 @@ The participant goes on to give this more thought."
 
 ### Handouts
 
-At the beginning of each debugging session we gave printed handouts [HU](https://github.com/InteractiveFaultLocalization/think-aloud-utils/blob/iFL2021/handouts/tasks.pdf), [EN](https://github.com/InteractiveFaultLocalization/think-aloud-utils/blob/iFL2021/handouts/tasks_en.pdf) to the participants which contained the following information:
+At the beginning of each debugging session we gave printed handouts [HU](https://github.com/InteractiveFaultLocalization/think-aloud-utils/blob/iFL2021/handouts/tasks.pdf), [EN](https://github.com/InteractiveFaultLocalization/think-aloud-utils/blob/iFL2021/handouts/task_en.pdf) to the participants which contained the following information:
 
 + ID of the task (A, B, etc.)
 + Failing test case(s)
