@@ -5,8 +5,6 @@ main:
     url: pages/publications.html
   - title: "Data"
     url: pages/raw-data.html
-  - title: "Implementation"
-    url: https://github.com/InteractiveFaultLocalization/iFL4Eclipse
 docs:
   - title: "Navigation"
     children:
@@ -18,7 +16,9 @@ docs:
         url: /pages/publications.html
       - title: "Experimental Data"
         url: /pages/raw-data.html
-  - title: "Implementations"
+  - title: "Tools"
     children:
       - title: "iFL4Eclipse"
-        url: https://github.com/InteractiveFaultLocalization/iFL4Eclipse
+        url: "/tools/ifl4eclipse"
+      - title: "CharmFL"
+        url: "/tools/charmfl"

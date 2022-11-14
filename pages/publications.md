@@ -2,6 +2,10 @@
 title: "Publications"
 ---
 
+## 2021
+
+_Qusay Idrees Sarhan, Attila Szatmári, Rajmond Toth, and Árpád Beszédes._ **CharmFL: A Fault Localization Tool for Python.** The 21st IEEE International Working Conference on Source Code Analysis and Manipulation (SCAM), 2021. {% include fa-link.html icon="fa-file" text="paper" href="http://www.inf.u-szeged.hu/~beszedes/research/SST21.pdf" %} {% include fa-link.html icon="fa-video" text="demo" href="https://youtu.be/yTAfSekd-xo" %}
+
 ## 2020
 
 _Horváth, F., Beszédes, Á., Vancsics, B., Balogh, G., Vidács, L. and Gyimóthy, T._ **Experiments with Interactive Fault Localization Using Simulated and Real Users.** In Proceedings of the 36th IEEE International Conference on Software Maintenance and Evolution (ICSME 2020), pages 290-300. Adelaide, Australia (virtual event), September 27 - October 3, 2020. {% include fa-link.html icon="fa-file" text="paper" href="http://www.inf.u-szeged.hu/~beszedes/research/HBV20.pdf" %} {% include fa-link.html icon="fa-database" text="data" href="/pages/raw-data.html#raw-data-from-simulated-users-experiments-and-user-studies-in-2020" %}
