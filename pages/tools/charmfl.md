@@ -20,3 +20,12 @@ For more information check the [Official GitHub Project](https://github.com/Szat
 
 Currently, **the plug-in supports offline (or from disk) installation**. Please follow the [official PyCharm description](https://www.jetbrains.com/help/pycharm/managing-plugins.html#install_plugin_from_disk) for more details.
 {: .notice--warning}
+
+## Try it out!
+
+You can find various sample data and example projects in the [Replication Packages](/pages/raw-data.html).
+
+## Feedback
+
+[//]: # (TODO replace with the final link after upstream merge)
+Do you have any ideas, suggestion or have you experienced any errors with our tool? Let us know via the [project issue](https://github.com/SzatmariA/CharmFL-dev/issues/new) tracking system.

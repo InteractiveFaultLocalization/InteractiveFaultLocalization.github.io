@@ -1,6 +1,12 @@
 ---
-title: "Experimental Data"
+title: "Replication Packages"
 ---
+
+## Sample project for Hands-on session at A-Test Workshop in 2022
+
+The sample projects will be published soon.
+{: .notice--info}
+
 ## Raw Data from the Think Aloud Protocols in 2021
 
 In 2021, we conducted an experiment with 6 developers using the [Think Aloud Protocol](https://psycnet.apa.org/record/1980-24435-001). The collected raw data are available under the following sections. For more details check our publications. Note, that all textual material provided here is in Hungarian, except from several parts which are provided in English as examples.
