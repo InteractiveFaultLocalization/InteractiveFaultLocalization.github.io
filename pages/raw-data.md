@@ -4,8 +4,18 @@ title: "Replication Packages"
 
 ## Sample project for Hands-on session at A-Test Workshop in 2022
 
-The sample projects will be published soon.
-{: .notice--info}
+The following packages contain a single version of the subject system seeded with at least one real-life error. Please check the official project pages for details about how to build, execute, and use the tools.
+
+|| name | system |
+|:--:|--|--|
+| ![java](/pages/logo/java.svg){: .charsize} | [lang-3](/pages/data/lang-3.zip) | [Commons Lang](https://commons.apache.org/proper/commons-lang/) |
+| ![java](/pages/logo/java.svg){: .charsize} | [lang-7](/pages/data/lang-7.zip) | [Commons Lang](https://commons.apache.org/proper/commons-lang/) |
+| ![java](/pages/logo/java.svg){: .charsize} | [lang-22](/pages/data/lang-22.zip) | [Commons Lang](https://commons.apache.org/proper/commons-lang/) |
+| ![java](/pages/logo/java.svg){: .charsize} | [lang-50](/pages/data/lang-50.zip) | [Commons Lang](https://commons.apache.org/proper/commons-lang/) |
+| ![java](/pages/logo/java.svg){: .charsize} | [lang-55](/pages/data/lang-55.zip) | [Commons Lang](https://commons.apache.org/proper/commons-lang/) |
+| ![java](/pages/logo/java.svg){: .charsize} | [lang-61](/pages/data/lang-61.zip) | [Commons Lang](https://commons.apache.org/proper/commons-lang/) |
+| ![python](/pages/logo/python.svg){: .charsize} | [black-10](/pages/data/black-10.zip) | [Black - The uncompromising code formatter](https://commons.apache.org/proper/commons-lang/) |
+| ![python](/pages/logo/python.svg){: .charsize} | [black-20](/pages/data/black-20.zip) | [Black - The uncompromising code formatter](https://commons.apache.org/proper/commons-lang/) |
 
 ## Raw Data from the Think Aloud Protocols in 2021
 
