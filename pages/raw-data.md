@@ -2,7 +2,7 @@
 title: "Replication Packages"
 ---
 
-## Sample project for Hands-on session at A-Test Workshop in 2022
+## Sample Projects for Hands-on Session at A-Test Workshop in 2022
 
 The following packages contain a single version of the subject system seeded with at least one real-life error. Please check the official project pages for details about how to build, execute, and use the tools.
 
