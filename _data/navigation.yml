@@ -14,7 +14,7 @@ docs:
         url: /pages/intro.html
       - title: "Publications"
         url: /pages/publications.html
-      - title: "Replication"
+      - title: "Supplementary Material"
         url: /pages/raw-data.html
   - title: "Tools"
     children:

@@ -1,5 +1,5 @@
 ---
-title: "Replication Packages"
+title: "Supplementary Material"
 ---
 
 ## Sample Projects for Hands-on Session at A-Test Workshop in 2022
