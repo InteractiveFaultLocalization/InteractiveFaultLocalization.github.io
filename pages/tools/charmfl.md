@@ -21,7 +21,7 @@ Currently, **the plug-in supports offline (or from disk) installation**. Please 
 
 ## Try it out!
 
-You can find various sample data and example projects in the [Replication Packages](/pages/raw-data.html).
+You can find various sample data and example projects in the [Supplementary Material](/pages/raw-data.html).
 
 ## Feedback
 
