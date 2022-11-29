@@ -14,7 +14,6 @@ For more information check the [Official GitHub Project](https://github.com/Inte
 
 ## Download
 
-[//]: # (TODO replace with the final link after upstream merge)
 [Download Latest Release](https://github.com/InteractiveFaultLocalization/iFL4Eclipse/releases/latest){: .btn .btn--success .btn--large .center}
 
 You can use the **extracted zip as an update site to install the plug-in**. Please follow the [official Eclipse description](https://help.eclipse.org/2022-09/topic/org.eclipse.wb.doc.user/html/installation/updatesite_3.8.html) for more details.
@@ -22,9 +21,8 @@ You can use the **extracted zip as an update site to install the plug-in**. Plea
 
 ## Try it out!
 
-You can find various sample data and example projects in the [Replication Packages](/pages/raw-data.html).
+You can find various sample data and example projects in the [Supplementary Material](/pages/raw-data.html).
 
 ## Feedback
 
-[//]: # (TODO replace with the final link after upstream merge)
 Do you have any ideas, suggestion or have you experienced any errors with our tool? Let us know via the [project issue](https://github.com/InteractiveFaultLocalization/iFL4Eclipse/issues/new/choose) tracking system.
