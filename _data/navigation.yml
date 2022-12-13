@@ -1,10 +1,12 @@
 main:
   - title: "Home"
-    url: index.html
+    url: /index.html
+  - title: "Introduction"
+    url: /pages/intro.html
   - title: "Publications"
-    url: pages/publications.html
-  - title: "Data"
-    url: pages/raw-data.html
+    url: /pages/publications.html
+  - title: "Supplementary Material"
+    url: /pages/raw-data.html
 docs:
   - title: "Navigation"
     children:
